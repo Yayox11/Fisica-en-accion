@@ -3427,12 +3427,12 @@ body {
 }
 .cid-r4D8LKX725 .navbar {
   padding: .5rem 0;
-  background: #232323;
+  background: #0e0e0e1f;
   transition: none;
   min-height: 77px;
 }
 .cid-r4D8LKX725 .navbar-dropdown.bg-color.transparent.opened {
-  background: #232323;
+  background: #000000;
 }
 .cid-r4D8LKX725 a {
   font-style: normal;
