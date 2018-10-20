@@ -40,7 +40,7 @@ $(document).ready(function(){
       if(offset3.top == (offset3.top + scroll_start)){
         $('.navbar-custom').css('background-color', 'rgba(255, 255, 255, 0)');
       }else{
-        $('.navbar-custom').css('background-color', '#00a8ff');
+        $('.navbar-custom').css('background-color', '#1B1464');
       }
     })
   }
