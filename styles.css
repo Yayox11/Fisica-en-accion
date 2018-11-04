@@ -6,3 +6,10 @@
     height: calc(100vh - 4rem);
     overflow-y: auto;
 }
+.title-nav{
+    font-size: 225%;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 3%;
+}
