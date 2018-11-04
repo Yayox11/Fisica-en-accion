@@ -1,15 +1,21 @@
-
-.toc{
+.toc {
     position: sticky;
     text-align: right;
     top: 10rem;
     height: calc(100vh - 4rem);
     overflow-y: auto;
 }
-.title-nav{
+
+.title-nav {
     font-size: 225%;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     padding-bottom: 3%;
+}
+
+.subseccion {
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
