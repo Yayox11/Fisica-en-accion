@@ -23,11 +23,16 @@
     padding-top: .51%;
     width: 100%;;
 }
+.linea_s{
+    background-color: rgb(171, 198, 247);
+    padding-top: .21%;
+    margin-top: 0%;
+    width: 69%;;
+}
 .cita{
     background-color: rgb(240, 240, 240);
     font-style: italic;
-    height: 50%;
-    max-height: 30%;
+    height: 30%;
     margin-top: 5%;
 }
 .resaltar{
@@ -41,3 +46,20 @@
     padding-bottom: 2%;
     padding-top: 2%;
 }
+.bola ol li:before {
+    position: absolute;
+    left: 0px;
+    margin-top: -10px;
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 40px;
+    transition: all .2s;
+    color: #d61717;
+    background: #010a0e !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
