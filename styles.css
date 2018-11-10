@@ -56,10 +56,10 @@ dl dd::before{
     text-align: center;
     margin: 5px 10px;
     transition: all .2s;
-    color: #000000;
+    color: #ffffff;
     background: #fffb00 !important;
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
   }
 
@@ -73,10 +73,6 @@ dl dd::before{
 
 
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
 .sub-line {
     position: relative;
     padding-bottom: 2%;
