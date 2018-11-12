@@ -14,29 +14,36 @@
     text-align: center;
     padding-bottom: 3%;
 }
-.sub-titulo{
+
+.sub-titulo {
     text-align: justify;
     padding-bottom: 3%;
 }
-.linea_t{
+
+.linea_t {
     background-color: rgb(0, 57, 163);
     padding-top: .51%;
-    width: 100%;;
+    width: 100%;
+    ;
 }
-.cita{
+
+.cita {
     background-color: rgb(240, 240, 240);
     font-style: italic;
     height: 50%;
     max-height: 30%;
     margin-top: 5%;
 }
-.resaltar{
+
+.resaltar {
     color: black;
     font-weight: bold;
 }
-.imagen{
+
+.imagen {
     width: 100%;
 }
+
 .subseccion {
     padding-bottom: 2%;
     padding-top: 2%;
