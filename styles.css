@@ -26,12 +26,21 @@
     width: 100%;
     ;
 }
+<<<<<<< HEAD
 
 .cita {
+=======
+.linea_s{
+    background-color: rgb(171, 198, 247);
+    padding-top: .21%;
+    margin-top: 0%;
+    width: 69%;;
+}
+.cita{
+>>>>>>> fb8d0e93bd3d183820c3f7426e1837c82b346768
     background-color: rgb(240, 240, 240);
     font-style: italic;
-    height: 50%;
-    max-height: 30%;
+    height: 30%;
     margin-top: 5%;
 }
 
@@ -48,3 +57,50 @@
     padding-bottom: 2%;
     padding-top: 2%;
 }
+dl dd::before{
+    position: relative;
+    left: 1%;
+    margin-top: -10px;
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    transition: all .2s;
+    color: #ffffff;
+    background: #fffb00 !important;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+
+  .box{
+      background-color: rgba(125, 127, 153, 0.322);
+      padding: 5%;
+  }
+  .box:hover{
+      background-color: rgba(41, 46, 121, 0.137);
+  }
+
+
+
+.sub-line {
+    position: relative;
+    padding-bottom: 2%;
+  }
+  
+  .sub-line:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #001988;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s;
+    left: 0;
+  }
+  
+  .sub-line:hover:before {
+    width: 100%;
+  }
