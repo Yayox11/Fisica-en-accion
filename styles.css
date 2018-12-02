@@ -26,10 +26,6 @@
     width: 100%;
     ;
 }
-<<<<<<< HEAD
-
-.cita {
-=======
 .linea_s{
     background-color: rgb(171, 198, 247);
     padding-top: .21%;
@@ -37,7 +33,6 @@
     width: 69%;;
 }
 .cita{
->>>>>>> fb8d0e93bd3d183820c3f7426e1837c82b346768
     background-color: rgb(240, 240, 240);
     font-style: italic;
     height: 30%;
