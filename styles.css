@@ -1,3 +1,7 @@
+
+html{
+    /*overflow-x: hidden;*/
+}
 .toc {
     position: sticky;
     text-align: right;
@@ -98,4 +102,9 @@ dl dd::before {
 
 .sub-line:hover:before {
     width: 100%;
+}
+.shadow{
+    border: 1px solid yellow;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #88888871;
 }
