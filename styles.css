@@ -21,7 +21,6 @@ html{
 
 .sub-titulo {
     text-align: justify;
-    padding-bottom: 3%;
 }
 
 .linea_t {
@@ -30,13 +29,16 @@ html{
     width: 100%;
     ;
 }
-.linea_s{
+
+.linea_s {
     background-color: rgb(171, 198, 247);
     padding-top: .21%;
     margin-top: 0%;
-    width: 69%;;
+    width: 69%;
+    ;
 }
-.cita{
+
+.cita {
     background-color: rgb(240, 240, 240);
     font-style: italic;
     height: 30%;
