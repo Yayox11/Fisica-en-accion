@@ -54,9 +54,47 @@ html {
 }
 
 .imagen {
-    background: #001988,
-    linear-gradient(rgba(25, 209, 231, 0.5), rgba(243, 17,224, 0.5));
+    filter: grayscale(.2);
     width: 100%;
+}
+.img {
+    display: block;
+}
+.yellow:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(1, 56, 54, 0.673), rgba(243, 228, 17, 0.5));
+}
+.yellow-r:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(1, 56, 54, 0.673), rgba(243, 228, 17, 0.5));
+}
+.black:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(206, 193, 23, 0.5), rgba(0, 0, 0, 0.5));
+}
+.red:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(168, 17, 17, 0.5));
 }
 
 .text-over{
@@ -65,8 +103,12 @@ html {
     bottom: 25%;
     right: 5%; 
     left: 5%;
+    text-align: center;
 }
-
+.blanquear{
+    z-index: 1000;
+    color: #ffffff;
+}
 .subseccion {
     padding-bottom: 2%;
     padding-top: 2%;
