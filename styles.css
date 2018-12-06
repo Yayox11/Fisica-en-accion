@@ -67,7 +67,7 @@ html {
     width:100%;
     top:0;
     left:0;
-    background: linear-gradient(rgba(1, 56, 54, 0.673), rgba(243, 228, 17, 0.5));
+    background: linear-gradient(rgba(1, 170, 159, 0.85), rgba(243, 228, 17, 0.5));
 }
 .yellow-r:after {
     position: absolute;
@@ -76,7 +76,7 @@ html {
     width:100%;
     top:0;
     left:0;
-    background: linear-gradient(rgba(1, 56, 54, 0.673), rgba(243, 228, 17, 0.5));
+    background: linear-gradient(rgba(1, 170, 159, 0.095), rgba(243, 228, 17, 0.306));
 }
 .black:after {
     position: absolute;
@@ -85,16 +85,70 @@ html {
     width:100%;
     top:0;
     left:0;
-    background: linear-gradient(rgba(206, 193, 23, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(rgba(255, 238, 0, 0.5), rgba(0, 70, 78, 0.612));
 }
-.red:after {
+.black-r:after {
     position: absolute;
     content:"";
     height:100%;
     width:100%;
     top:0;
     left:0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(168, 17, 17, 0.5));
+    background: linear-gradient(rgba(255, 238, 0, 0.251), rgba(0, 70, 78, 0.55));
+}
+.purp:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(1, 85, 109, 0.598), rgba(79, 0, 139, 0.632));
+}
+.purp-r:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(1, 86, 109, 0.081), rgba(79, 0, 139, 0.027));
+}
+.green:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(79, 0, 139, 0.632), rgba(0, 139, 107, 0.598));
+}
+.green-r:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(79, 0, 139, 0.074), rgba(0, 139, 107, 0.224));
+}
+.greellow:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(28, 209, 164, 0.591), rgba(109, 33, 79, 0.87));
+}
+.greellow-r:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(rgba(28, 209, 164, 0.197), rgba(109, 33, 79, 0));
 }
 
 .text-over{
@@ -189,3 +243,9 @@ dl dd::before {
     padding-top: 5%;
     padding-bottom: 3%;
 }
+
+.fondo-titulo {
+    padding-top: 120px;
+    padding-bottom: 75px;
+    background-image: url("./assets/images/plasma.jpg");
+  }
