@@ -1,3 +1,5 @@
+
+
 html {
     /*overflow-x: hidden;*/
 }
@@ -303,4 +305,43 @@ dl dd::before {
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
+<<<<<<< HEAD
 }
+=======
+  }
+  .navbar{
+      background-color: rgba(15, 118, 153, 0.558);
+      top: 0px;
+  }
+  .nav-link{
+      color: white; 
+      font-family: 'Lobster', cursive;
+  }
+  .dropbox::before{      
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fffb00;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s;
+    left: 0;
+
+  }
+  .dropbox:hover:before {
+    width: 100%;
+}
+  .nav-link:hover{
+      color: #faf884;
+  }
+  .dropdown-menu{
+      background-color: rgba(15, 118, 153, 0.558);
+  }
+  .dropdown-item{
+    color: white;
+  }
+
+  /*IMPORTS*/
+  @import url('https://fonts.googleapis.com/css?family=Lobster');
+>>>>>>> 025001d3230c4d4be7b491322fdacbcd3269acb3
