@@ -230,7 +230,9 @@ dl dd::before {
 .sub-line:hover:before {
     width: 100%;
 }
-
+.mrg{
+    margin-bottom: 5%;
+}
 .shadow {
     border: 1px solid yellow;
     padding: 10px;
@@ -305,9 +307,6 @@ dl dd::before {
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
-<<<<<<< HEAD
-}
-=======
   }
   .navbar{
       background-color: rgba(15, 118, 153, 0.558);
@@ -344,4 +343,3 @@ dl dd::before {
 
   /*IMPORTS*/
   @import url('https://fonts.googleapis.com/css?family=Lobster');
->>>>>>> 025001d3230c4d4be7b491322fdacbcd3269acb3
