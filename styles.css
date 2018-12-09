@@ -267,7 +267,9 @@ dl dd::before {
     padding-bottom: 75px;
     background-image: url("./assets/images/plasma.jpg");
 }
-
+.cid-rbIrH0n99s{
+    background-image: url("./assets/images/Foto\ Ampolleta.jpg") !important;
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
