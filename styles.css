@@ -1,14 +1,14 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 h1,h2,h3,h4,h5,h6,div,a,span{
     font-family: 'Arimo',
     sans-serif !important;
 
 }
+
 html {
     /*overflow-x: hidden;*/
 }
+
 .toc {
     position: sticky;
     text-align: right;
@@ -235,9 +235,11 @@ dl dd::before {
 .sub-line:hover:before {
     width: 100%;
 }
-.mrg{
+
+.mrg {
     margin-bottom: 5%;
 }
+
 .shadow {
     border: 1px solid yellow;
     padding: 10px;
@@ -272,9 +274,11 @@ dl dd::before {
     padding-bottom: 75px;
     background-image: url("./assets/images/plasma.jpg");
 }
-.cid-rbIrH0n99s{
+
+.cid-rbIrH0n99s {
     background-image: url("./assets/images/Foto\ Ampolleta.jpg") !important;
 }
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -314,15 +318,18 @@ dl dd::before {
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
-  }
-  .navbar{
-      background-color: rgba(15, 118, 153, 0.558);
-      top: 0px;
-  }
-  .nav-link{
-      color: white; 
-  }
-  .dropbox::before{      
+}
+
+.navbar {
+    background-color: rgba(15, 118, 153, 0.558);
+    top: 0px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropbox::before {
     content: "";
     display: block;
     width: 0;
@@ -332,20 +339,25 @@ dl dd::before {
     bottom: 0;
     transition: all 0.3s;
     left: 0;
+}
 
-  }
-  .dropbox:hover:before {
+.dropbox:hover:before {
     width: 100%;
 }
-  .nav-link:hover{
-      color: #faf884;
-  }
-  .dropdown-menu{
-      background-color: rgba(15, 118, 153, 0.558);
-  }
-  .dropdown-item{
-    color: white;
-  }
 
-  /*IMPORTS*/
-  @import url('https://fonts.googleapis.com/css?family=Lobster');
+.nav-link:hover {
+    color: #faf884;
+}
+
+.dropdown-menu {
+    background-color: rgba(15, 118, 153, 0.558);
+}
+
+.dropdown-item {
+    color: white;
+}
+
+
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
