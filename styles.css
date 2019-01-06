@@ -1,9 +1,13 @@
 
 
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+h1,h2,h3,h4,h5,h6,div,a,span{
+    font-family: 'Arimo', sans-serif;
+
+}
 html {
     /*overflow-x: hidden;*/
 }
-
 .toc {
     position: sticky;
     text-align: right;
@@ -316,7 +320,6 @@ dl dd::before {
   }
   .nav-link{
       color: white; 
-      font-family: 'Lobster', cursive;
   }
   .dropbox::before{      
     content: "";
