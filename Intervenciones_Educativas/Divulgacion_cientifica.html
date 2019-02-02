@@ -467,7 +467,7 @@
                             </p>
                             <p>
                                 Las instalaciones del Parque cuentan con amplios y gratos espacios para toda la familia, además de motivar el desarrollo de inquietudes científicas y artísticas en jóvenes para complementar su aprendizaje de forma entretenida, fomentando el trabajo en
-                                equipo y el liderazgo a temprana edad
+                                equipo y el liderazgo a temprana edad. <a href="http://parquedelaciencia.cl/">Conoce más sobre el parque de la ciencia aquí.</a>
                             </p>
                         </div>
                     </div>
@@ -631,6 +631,10 @@
             once: true
         });
         window.addEventListener('load', AOS.refresh);
+        var isSafari = /constructor/i.test(window.HTMLElement) || (function(p) {
+            return p.toString() === "[object SafariRemoteNotification]";
+        })(!window['safari'] || safari.pushNotification);
+        console.log(isSafari);
     </script>
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">
