@@ -206,7 +206,12 @@ dl dd::before {
     height: 16px;
     border-radius: 50%;
 }
-
+#content5-111{
+    background-image: url('./assets/images/PREUSM/PreUSM10.JPG');
+}
+#content5-112{
+    background-image: url('./assets/images/STEAM/mano.jpg');
+}
 .box {
     background-color: rgba(125, 127, 153, 0.322);
     padding: 5%;
@@ -273,7 +278,7 @@ dl dd::before {
 .fondo-titulo {
     padding-top: 120px;
     padding-bottom: 75px;
-    background-image: url("./assets/images/plasma.jpg");
+    background-image: url("./assets/images/Cubeta.jpg");
 }
 
 .cid-rbIrH0n99s {
