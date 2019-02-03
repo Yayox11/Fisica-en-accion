@@ -212,6 +212,15 @@ dl dd::before {
 #content5-112{
     background-image: url('./assets/images/STEAM/mano.jpg');
 }
+#content5-113{
+    background-image: url('./assets/images/Foto12-2.jpg');
+}
+#content5-114{
+    background-image: url('./assets/images/transfcalor.jpg');
+}
+#content5-h{
+    background-image: url('./assets/images/equipon.jpg');
+}
 .box {
     background-color: rgba(125, 127, 153, 0.322);
     padding: 5%;
