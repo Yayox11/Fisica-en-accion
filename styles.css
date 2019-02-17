@@ -185,7 +185,6 @@ html {
     z-index: 1000;
     color: #ffffff;
 }
-
 .subseccion {
     padding-bottom: 2%;
     padding-top: 2%;
@@ -216,6 +215,9 @@ dl dd::before {
     background-image: url('./assets/images/Foto12-2.jpg');
 }
 #content5-114{
+    background-image: url('./assets/images/transfcalor.jpg');
+}
+#content5-115{
     background-image: url('./assets/images/transfcalor.jpg');
 }
 #content5-h{
