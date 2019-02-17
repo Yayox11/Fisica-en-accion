@@ -3,7 +3,7 @@ $(document).ready(function(){
   var scroll_start = 0;
   var startchange = $('#index');
   var offset = startchange.offset();
-  var startchange2 = $('#servicios2');
+  var startchange2 = $('#steam');
   var offset2 = startchange2.offset();
   var startchange3 = $('#productos2');
   var offset3 = startchange3.offset();
@@ -26,7 +26,7 @@ $(document).ready(function(){
     $(document).scroll(function(){
       scroll_start = $(this).scrollTop();
       if(offset2.top == (offset2.top + scroll_start)){
-        $('.navbar-custom').css('background-color', 'rgba(255, 255, 255, 0)');
+        $('.navbar-custom').css('background-color', 'rgba(255, 25, 255, 0)');
       }else{
         $('.navbar-custom').css('background-color', 'rgb(15, 118, 153)');
       }
