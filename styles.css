@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
-h1,h2,h3,h4,h5,h6,div,a,span{
-    font-family: 'Arimo',
-    sans-serif !important;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a,
+span {
+    font-family: 'Arimo', sans-serif !important;
 }
 
 html {
     /*overflow-x: hidden;*/
 }
-.lili{
+
+.lili {
     margin-bottom: 4.3%!important;
 }
+
 .toc {
     position: sticky;
     text-align: right;
@@ -185,6 +193,7 @@ html {
     z-index: 1000;
     color: #ffffff;
 }
+
 .subseccion {
     padding-bottom: 2%;
     padding-top: 2%;
@@ -205,24 +214,31 @@ dl dd::before {
     height: 16px;
     border-radius: 50%;
 }
-#content5-111{
+
+#content5-111 {
     background-image: url('./assets/images/PREUSM/PreUSM10.JPG');
 }
-#content5-112{
+
+#content5-112 {
     background-image: url('./assets/images/STEAM/mano.jpg');
 }
-#content5-113{
+
+#content5-113 {
     background-image: url('./assets/images/Foto12-2.jpg');
 }
-#content5-114{
+
+#content5-114 {
     background-image: url('./assets/images/transfcalor.jpg');
 }
-#content5-115{
+
+#content5-115 {
     background-image: url('./assets/images/transfcalor.jpg');
 }
-#content5-h{
+
+#content5-h {
     background-image: url('./assets/images/equipon.jpg');
 }
+
 .box {
     background-color: rgba(125, 127, 153, 0.322);
     padding: 5%;

@@ -173,21 +173,21 @@
                                 <p style="text-align:right;"><span class="resaltar">María Luisa Mora, encargada académica.</span></p>
                             </div>
                         </div>
-                        
+
                         <div class="col-12 col-md-6 col-lg-6 col-xl-6 cita rounded" style="height:45%;padding:2%;margin-top: 2%" data-aos="flip-left">
-                                <p>“La idea es que además de apoyar la labor docente del profesor, los niños se vayan alfabetizando científicamente, cosa que si ellos deciden luego estudiar una ingeniería o una carrera en ciencias, tengan ya estas nociones
-                                    más o menos desarrolladas en su mente”
-                                </p>
-                                <p style="text-align:right;"><span class="resaltar">María Luisa Mora, encargada académica.</span></p>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                                <p class="subseccion">Se trata de Física en Acción, un grupo multidisciplinario nacido en el Departamento de Física del Plantel, que a través de entretenidas presentaciones y experimentos busca enseñar y explicar de forma demostrativa, conceptos
-                                    básicos de esta ciencia a escolares desde sexto básico a cuarto medio. Nacido en 2017 al alero del proyecto Anillo 1413, adjudicado por el académico de la USM Dr. William Brooks, este grupo de divulgación comenzó sus
-                                    actividades realizando 30 visitas a colegios en su primer año de funcionamiento, ofreciendo charlas interactivas que abordaron temas como fuerza y movimiento, fuerzas eléctricas y fenómenos electromagnéticos, ondas
-                                    y sonido, estados de la materia, y presión y sus efectos.
-                                </p>
-                        
-                    </div>
+                            <p>“La idea es que además de apoyar la labor docente del profesor, los niños se vayan alfabetizando científicamente, cosa que si ellos deciden luego estudiar una ingeniería o una carrera en ciencias, tengan ya estas nociones más
+                                o menos desarrolladas en su mente”
+                            </p>
+                            <p style="text-align:right;"><span class="resaltar">María Luisa Mora, encargada académica.</span></p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <p class="subseccion">Se trata de Física en Acción, un grupo multidisciplinario nacido en el Departamento de Física del Plantel, que a través de entretenidas presentaciones y experimentos busca enseñar y explicar de forma demostrativa, conceptos
+                                básicos de esta ciencia a escolares desde sexto básico a cuarto medio. Nacido en 2017 al alero del proyecto Anillo 1413, adjudicado por el académico de la USM Dr. William Brooks, este grupo de divulgación comenzó sus actividades
+                                realizando 30 visitas a colegios en su primer año de funcionamiento, ofreciendo charlas interactivas que abordaron temas como fuerza y movimiento, fuerzas eléctricas y fenómenos electromagnéticos, ondas y sonido, estados
+                                de la materia, y presión y sus efectos.
+                            </p>
+
+                        </div>
                     </div>
                 </section>
 
@@ -624,14 +624,15 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js "></script>
     <script>
-        AOS.init({
-            once: true
-        });
-        window.addEventListener('load', AOS.refresh);
         var isSafari = /constructor/i.test(window.HTMLElement) || (function(p) {
             return p.toString() === "[object SafariRemoteNotification]";
         })(!window['safari'] || safari.pushNotification);
-        console.log(isSafari);
+        if (!isSafari) {
+            AOS.init({
+                once: true
+            });
+            window.addEventListener('load', AOS.refresh);
+        }
     </script>
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">

@@ -373,6 +373,8 @@
 
 
     <script src="../assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
     <script src="../assets/popper/popper.min.js"></script>
     <script src="../assets/tether/tether.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
@@ -393,8 +395,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js"></script>
     <script>
-        AOS.init();
-        window.addEventListener('load', AOS.refresh);
+        if (!jQuery.browser.safari) {
+            AOS.init();
+            window.addEventListener('load', AOS.refresh);
+        }
     </script>
 
 
