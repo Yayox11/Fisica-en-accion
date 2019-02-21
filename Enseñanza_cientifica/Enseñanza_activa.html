@@ -477,6 +477,9 @@
             if (!jQuery.browser.safari) {
                 AOS.init();
                 window.addEventListener('load', AOS.refresh);
+                
+            } else {
+                $('div').removeAttr('data-aos');
             }
         </script>
 
