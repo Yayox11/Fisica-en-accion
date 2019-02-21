@@ -266,19 +266,19 @@
                     <ul class="foot-menu">
 
                         <li class="foot-menu-item mbr-fonts-style display-7">
-                            <a class="text-white mbr-bold" href="#" target="_blank">About us</a>
+                            <a class="text-white mbr-bold" href="../Equipamento_científico/Material_experimental.html" target="_blank">Charlas científicas</a>
                         </li>
                         <li class="foot-menu-item mbr-fonts-style display-7">
-                            <a class="text-white mbr-bold" href="#" target="_blank">Services</a>
+                            <a class="text-white mbr-bold" href="../Equipamento_científico/Material_experimentalP.html" target="_blank">Material experimental</a>
                         </li>
                         <li class="foot-menu-item mbr-fonts-style display-7">
-                            <a class="text-white mbr-bold" href="#" target="_blank">Get In Touch</a>
+                            <a class="text-white mbr-bold" href="../quienes_somos.html" target="_blank">Quienes somos</a>
                         </li>
                         <li class="foot-menu-item mbr-fonts-style display-7">
-                            <a class="text-white mbr-bold" href="#" target="_blank">Careers</a>
+                            <a class="text-white mbr-bold" href="../Contacto.html" target="_blank">Contáctanos</a>
                         </li>
                         <li class="foot-menu-item mbr-fonts-style display-7">
-                            <a class="text-white mbr-bold" href="#" target="_blank">Work</a>
+                            <a class="text-white mbr-bold" href="../Proximamente.html" target="_blank">Próximamente</a>
                         </li>
                     </ul>
                 </div>
@@ -337,6 +337,9 @@
         if (!jQuery.browser.safari) {
             AOS.init();
             window.addEventListener('load', AOS.refresh);
+        } else {
+            $('div').removeAttr('data-aos');
+            $('p').removeAttr('data-aos');
         }
     </script>
 
