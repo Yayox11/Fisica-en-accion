@@ -16,14 +16,6 @@ span {
 html {
     /*overflow-x: hidden;*/
 }
-.box-style {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(183, 247, 252) rgba(107, 107, 107, 0.4) rgba(107, 107, 107, 0.452) rgb(152, 226, 255);
-    padding: 10px;
-    box-shadow: 5px 10px 18px #88888871;
-    background-color: #ffffff!important;
-}
 .lili {
     margin-bottom: 4.3%!important;
 }
@@ -248,6 +240,18 @@ dl dd::before {
     background-image: url('./assets/images/equipon.jpg');
 }
 
+.box2 {
+    padding: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(183, 247, 252) rgba(107, 107, 107, 0.4) rgba(107, 107, 107, 0.452) rgb(152, 226, 255);
+    padding: 10px;
+    box-shadow: 5px 10px 18px #88888871;
+    background-color: #ffffff;
+}
+.box2:hover {
+    background-color: rgba(0, 191, 255, 0.158);
+}
 .box {
     background-color: rgba(125, 127, 153, 0.322);
     padding: 5%;
