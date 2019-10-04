@@ -16,6 +16,7 @@ span {
 html {
     /*overflow-x: hidden;*/
 }
+
 .lili {
     margin-bottom: 4.3%!important;
 }
@@ -183,7 +184,7 @@ html {
 
 .text-over {
     position: absolute;
-    top: 25%;
+    top: 15%;
     bottom: 25%;
     right: 5%;
     left: 5%;
@@ -249,9 +250,11 @@ dl dd::before {
     box-shadow: 5px 10px 18px #88888871;
     background-color: #ffffff;
 }
+
 .box2:hover {
     background-color: rgba(0, 191, 255, 0.158);
 }
+
 .box {
     background-color: rgba(125, 127, 153, 0.322);
     padding: 5%;
@@ -281,6 +284,7 @@ dl dd::before {
 .sub-line:hover:before {
     width: 100%;
 }
+
 .sub-line2 {
     position: relative;
     padding-bottom: 2%;
