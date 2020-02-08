@@ -78,6 +78,13 @@ html {
     width: 100%;
 }
 
+.imagen_larga {
+    filter: grayscale(.2);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 .img {
     display: block;
 }
@@ -237,6 +244,14 @@ dl dd::before {
     background-image: url('./assets/images/transfcalor.jpg');
 }
 
+#content5-116 {
+    background-image: url('./assets/images/Colaboracion_explora/fiesta_de_la_ciencia_4.jpg');
+}
+
+#content5-117 {
+    background-image: url('./assets/images/Congresos/congreso_estudiantes_3.jpg');
+}
+
 #content5-h {
     background-image: url('./assets/images/equipon.jpg');
 }
@@ -352,7 +367,7 @@ dl dd::before {
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 395px;
+    height: 300px;
     /* largo de la foto de atras por ende si esto es muy grande, adelante se te va a ver con una sobre, piensa que pones dos cartas juntas*/
     perspective: 1000px;
 }
